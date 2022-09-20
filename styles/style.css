@@ -1,0 +1,128 @@
+:root {
+  /* Cores Primárias */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Cores Neutras */
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  --font-size-paragraph: 0.875rem;
+}
+
+body {
+  background-color: var(--cream);
+  font-family: "Montserrat", sans-serif;
+}
+
+/* MAIN */
+.principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.container__principal {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 35%;
+}
+
+.cartao__imagem {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.cartao {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1rem;
+  background-color: var(--white);
+  border-radius: 0px 10px 10px 0px;
+  padding: 2rem;
+}
+
+.cartao__tipo--produto {
+  grid-column: span 2;
+  color: var(--dark-grayish-blue);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.375rem;
+}
+
+.cartao__nome--produto {
+  grid-column: span 2;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.cartao__descricao {
+  grid-column: span 2;
+  color: var(--dark-grayish-blue);
+  font-size: var(--font-size-paragraph);
+  line-height: 150%;
+}
+
+.cartao__preco {
+  align-self: center;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-cyan);
+}
+
+.cartao__preco--antigo {
+  align-self: center;
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+.cartao__botao {
+  grid-column: span 2;
+  align-self: flex-end;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+}
+
+.cartao__botao::before {
+  content: url(../images/icon-cart.svg);
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .container__principal {
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+  }
+
+  .cartao__imagem {
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .cartao {
+    align-items: center;
+    height: 50%;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 875px) {
+  .container__principal {
+    width: 50%;
+    height: 90%;
+  }
+
+  .cartao {
+    width: 50%;
+  }
+}
