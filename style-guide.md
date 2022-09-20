@@ -2,31 +2,31 @@
 
 ## Layout
 
-The designs were created to the following widths:
+O design foi criado a partir dessas seguintes larguras:
 
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
+## Cores
 
-### Primary
+### Primárias
 
 - Dark cyan: hsl(158, 36%, 37%)
 - Cream: hsl(30, 38%, 92%)
 
-### Neutral
+### Neutras
 
 - Very dark blue: hsl(212, 21%, 14%)
 - Dark grayish blue: hsl(228, 12%, 48%)
 - White: hsl(0, 0%, 100%)
 
-## Typography
+## Tipografia
 
 ### Body Copy
 
-- Font size (paragraph): 14px
+- Font size (parágrafo): 14px
 
-### Font
+### Fonte
 
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weights: 500, 700
