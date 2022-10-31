@@ -1,4 +1,5 @@
 # Frontend Mentor - Product preview card component solution
+![](./design/desktop-preview.jpg)
 
 Esta é uma solução para o [desafio do componente do cartão de visualização do produto no Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
@@ -32,8 +33,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://reynald-durans.github.io/Product-preview-card-component/](https://reynald-durans.github.io/Product-preview-card-component/)
 
 ## Meu processo
 
